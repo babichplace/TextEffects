@@ -10,5 +10,5 @@ Collection of text effects for web
 
 [Glowingtext](/glowing_text.html)
 
-![glowing text effect](/assets/images/glow.png)
+![glowing text effect](/assets/images/glow.gif)
 
