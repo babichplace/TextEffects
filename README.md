@@ -8,7 +8,11 @@ Collection of text effects for web
 
 ![sliced text effect](/assets/images/sliced.png)
 
-[Glowingtext](/glowing_text.html)
+[Glowing text](/glowing_text.html)
 
 ![glowing text effect](/assets/images/glow.gif)
+
+[Gradient text](/gradient_text.html)
+
+![gradient text effect](/assets/images/gradient.gif)
 

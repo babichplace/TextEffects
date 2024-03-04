@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<title>Gradient text</title>
+
+<style>
+
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: $body-background;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  display: grid;
+  place-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #9ca0b1;
+}
+
+.wrapper {
+  text-align: center;
+  h1 {
+    color: #fff;
+    font-size: 92px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right,#FF416C 10%, #FF4B2B 50%, #ec2F4B 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2.5s linear infinite;
+    display: inline-block;
+  }
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+</style>
+
+</head>
+
+
+<body>
+
+<div class="wrapper">
+  <h1>Gradient</h1>
+</div>
+
+
+</body>
+</html>
