@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<title>Glowing text</title>
+
+<style>
+
+body
+{
+  background-color: #212121;
+  color: #B3E193;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  align-items: center;
+  text-color: #B3E193;
+  justify-content: center;;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+
+h1 {
+    margin: 0;
+    padding-bottom: 6rem;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    font-family: 'Teko', sans-serif;
+    font-size: 10rem;
+    text-transform: uppercase;
+    animation: glow 2s ease-in-out infinite alternate;
+    text-align: center;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 20px #A5D186;
+    }
+    to {
+      text-shadow: 0 0 30px #C5FC9F, 0 0 10px #C2DEAE;
+    }
+  }
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<h1>Glow</h1>
+
+
+</body>
+</html>
